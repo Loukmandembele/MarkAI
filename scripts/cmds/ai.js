@@ -31,7 +31,7 @@ module.exports = {
       }
       const prompt = event.body.substring(prefix.length).trim();
    if (!prompt) {
-        await message.reply("Please provide a question.");
+        await message.reply("Hey je suis Kabuto, demande-moi je te répondrai |.");
         return;
       }
 
